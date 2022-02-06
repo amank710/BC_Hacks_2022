@@ -1,0 +1,79 @@
+body {
+  background: linear-gradient(skyblue, lightgreen, pink);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(2, 0, 0);
+  text-align: center;
+  font-size: 3em;
+  margin-right: auto;
+  margin-left: auto;
+  color: rgb(128, 19, 0);
+  font-family: "Helvetica Neue", arial, helvetica;
+}
+
+img {
+  margin-top: 2em;
+}
+
+#container {
+  text-align: center;
+  -ms-text-justify: distribute-all-lines;
+  text-justify: distribute-all-lines;
+  width: 100%;
+}
+
+#container > div {
+  width: 100px;
+  height: 100px;
+  vertical-align: top;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  background: red;
+}
+
+input {
+  opacity: 0.6;
+  border: 7px solid;
+  font-size: 2em;
+}
+
+span {
+  width: 100%;
+  display: inline-block;
+  font-size: 0;
+  line-height: 0;
+}
+
+#btn {
+  font-size: 2.45em;
+  background-color: aquamarine;
+}
+
+#btn:hover {
+  cursor: pointer;
+  background-color: rgb(72, 72, 136);
+  color: white;
+}
+
+h2 {
+  font-size: 3.3em;
+  font-family: "Helvetica Neue", arial, helvetica;
+  color: rgb(58, 15, 59);
+}
+
+h3 {
+  font-size: 2.5em;
+  font-family: "Helvetica Neue", arial, helvetica;
+  color: rgb(58, 15, 59);
+}
+
+p {
+  font-size: 2em;
+  font-family: "Helvetica Neue", arial, helvetica;
+  color: rgb(58, 15, 59);
+}
